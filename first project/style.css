@@ -4,9 +4,11 @@ body{
 }
 body h2 span{
     color: #FFD700;
+    font-weight: bold;
 }
 .container h1{
     font-size: 50px;
+    
 }
 
 
@@ -41,7 +43,45 @@ section.up{
 
 section.down{
     background: url("photos/dream-bg.png");
-    height: 500px;
+    height: 700px;
     background-repeat: no-repeat;
     background-position: right ;
+}
+.upbox .cl-exp{
+    color: #FFD700;
+}
+.upbox .h2_cen{
+    padding: 5%;
+    margin-left: 2%;
+    display: inline-block;
+}
+.cent{
+    box-shadow: 0px 0px 20px black;
+    border-radius: 7px;
+    height: 60%;
+}
+.experience{
+    background-image: url("photos/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 350px;
+}
+#fullstack{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(78, 202, 78), rgb(233, 96, 96));
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+#babystack{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(71, 121, 228), rgb(211, 52, 113));
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+footer{
+    padding: 20px;
+
+}
+footer p{
+    text-align: center;
 }
